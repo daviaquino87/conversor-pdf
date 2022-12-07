@@ -11,7 +11,7 @@ async function main(){
   const usuarios = new Table(processorData);
   
 
-  console.log(usuarios.RowCount)
+  console.log(usuarios.HeadersCount)
 }
 
 main()
