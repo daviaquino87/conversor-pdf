@@ -9,8 +9,9 @@ async function main(){
   const processorData = Processor.Process(dados)
 
   const usuarios = new Table(processorData);
+  
 
-  console.log(usuarios)
+  console.log(usuarios.RowCount)
 }
 
 main()
